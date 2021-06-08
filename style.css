@@ -10,10 +10,8 @@ h1{
     color:grey;
     font-family:verdana;
 }
-label{
-  font-family: arial;
-  font-size: 16px;
-  color: #6F7078;
+input{
+  radius: 3px;
 }
 
 
@@ -28,11 +26,8 @@ label{
 }
 
 .btn{
-  background-color: #96B4FA;
   width: 200px;
-  font-weight: bold;
-  border: 2px solid grey;
-  border-radius: 40px;
+  radius: 4px;
 }
 
 
