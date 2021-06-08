@@ -9,8 +9,8 @@ function Compute(){
 
 function valid(){
   var principle = document.getElementById('principle');
-  if (principle.value=="") {
-    alert("Please Enter principle Amount");
+  if (principle.value<=0) {
+    alert("Please Enter a Positive number");
     principle.focus();
     return false;
   }
