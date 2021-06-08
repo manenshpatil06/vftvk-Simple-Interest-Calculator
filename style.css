@@ -35,3 +35,7 @@ input{
 .imp{
   place-items: center;
 }
+
+.result-1{
+  background-color: yellow;
+}
